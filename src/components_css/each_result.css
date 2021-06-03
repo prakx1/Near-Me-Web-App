@@ -1,0 +1,8 @@
+.prodvidercard {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 400px;
+  align-content: center;
+  border: 4px solid;
+  background-color: rgb(163, 120, 120);
+}

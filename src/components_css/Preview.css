@@ -1,0 +1,51 @@
+
+.prodviderCardReview {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 350px;
+    padding: 2%;
+    text-align: center;
+    /* border: 4px solid; */
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    font-family: arial;
+    transition: ease-in-out 0.4s;
+    background-color: #d8d8d8;
+    color: black;
+  }
+  
+  .prodviderCardReview:hover {
+    background: linear-gradient(
+      to right,
+      #e2e7e9,
+      #e0e4e3
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    transform: scale(1.02);
+  }
+  
+  .prodviderCardReview.title {
+    color: black;
+    font-size: 20px;
+  }
+  
+  .prodviderCardReview button {
+    width: 130px;
+    height: 42px;
+    text-decoration-style: none;
+    background-color: rgb(12, 12, 12);
+    border-radius: 70px;
+    border: none;
+    transition: ease-in-out 0.2s;
+  }
+  .prodviderCardReview button:hover {
+    background: linear-gradient(to right, #ebeeea, #e9ebe8);
+    /* background-color: rgb(70, 245, 70); */
+  }
+  .checked {
+    color: orange;
+  }
+  #sender{
+    margin-right: 1%;
+    text-align: right;
+  }

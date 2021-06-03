@@ -1,0 +1,15 @@
+#header{
+    text-align: center;
+}
+#inputForm{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.helpInput{
+    width: 30%;
+}
+#helpSubmit{
+    text-align: center;
+    
+}
